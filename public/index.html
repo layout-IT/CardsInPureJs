@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин товаров</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header__title">Товары</h1>
+        <div class="filters">
+            <div class="filters__price-range">
+                <div class="filters__container-for-minimum-price">
+                    <label for="min-price" class="filters__label">Мин. цена:</label>
+                    <input type="number" class="filters__input filters__input--min-price" placeholder="0" min="0">
+                </div>
+                <div class="filters__container-for-maximum-price">
+                    <label for="max-price" class="filters__label">Макс. цена:</label>
+                    <input type="number" class="filters__input filters__input--max-price" placeholder="0" min="0">
+                </div>
+                <button class="filters__button">Применить</button>
+            </div>    
+            <div class="filters__select-container">
+                <select class="filters__select filters__select--sort">
+                    <option value="default">Фильтр по умолчанию</option>
+                    <option value="min-price">По возрастанию цены</option>
+                    <option value="max-price">По убыванию цены</option>
+                    <option value="rating">По рейтингу</option>
+                    <option value="name">По названию</option>
+                </select> 
+                <select class="filters__select filters__select--category">
+                    <option value="default">Все категории</option>
+                </select> 
+            </div>
+        </div>
+    </header>
+
+    <main class="product-list">
+    </main>
+</body>
+</html>

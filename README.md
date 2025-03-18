@@ -14,7 +14,7 @@ npm install
 
 npm run start
 
--Сервер запустится на http://localhost:3000/.
+-Сервер запустится на http://localhost:3000/
 
 ## Сборка проекта
 

@@ -12,7 +12,7 @@ npm install
 
 -Запуск локального сервера для разработки
 
-npm start
+npm run start
 
 -Сервер запустится на http://localhost:3000/.
 
@@ -25,23 +25,3 @@ npm run build:dev
 -Для продакшена (с минификацией):
 
 npm run build:prod
-
-## Развертывание на GitHub Pages
-
-npm run deploy
-
--Код проекта будет опубликован по адресу: https://github.com/layout-IT/CardsOnPureJs
-
-## Зависимости
-
-1. Webpack
-
-2. Babel
-
-3. CSS Loader
-
-4. HTML Webpack Plugin
-
-5. Mini CSS Extract Plugin
-
-6. gh-pages

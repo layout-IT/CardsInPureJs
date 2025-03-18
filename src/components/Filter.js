@@ -59,9 +59,7 @@ export const Filter = () => {
         renderProducts(store.filterdData);
 })
     document.querySelector(".filters__button").addEventListener("click", async () => {
-        try {
-            console.log('clo=ick');
-            
+        try {     
             resetFilters();
             await getDelay();
             const minPrice = parseFloat(document.querySelector(".filters__input--min-price").value) || 0;

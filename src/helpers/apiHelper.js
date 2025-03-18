@@ -34,7 +34,7 @@ export const getDelay = async() => {
     })
 
     }catch(error){
-        console.log(error)
+        console.error(error)
     }finally{
         renderPreloader(false)
 
